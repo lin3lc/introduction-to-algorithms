@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
 
 
 void merge(int *a, int p, int q, int r){
-    //复制2个字数组加哨兵
+    //复制2个数组加哨兵
     int n1 = q-p+1;
     int n2 = r-q;
     int left[n1+1], right[n2+1];
